@@ -11,7 +11,7 @@ const App = ({ Component, pageProps }) => {
   const Layout = layouts[Component.layout] || ((children) => <>{children}</>);
   return (
     <Layout>
-      <Component {...pageProps} />
+      <Component  {...pageProps} />
     </Layout>
   );
 };
