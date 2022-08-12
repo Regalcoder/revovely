@@ -1,4 +1,5 @@
-// import '../styles/globals.css'
+import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.css'
 
 // pages/_app.jsx
 import Default from "../layouts/Default";
