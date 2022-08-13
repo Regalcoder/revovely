@@ -1,0 +1,32 @@
+.savingSection {
+    border: 1px solid black;
+    height: auto;
+    padding: 100px 40px;
+    background: #F4F4F4;
+}
+.goalSection {
+    height: 800px;
+    border: 1px solid black;
+    background: white;
+}
+.goalContent {
+    width: 430px;
+    margin-top: 200px;
+}
+.goalContent h4 {
+    color: #14142B;
+    font-size: 40px;
+    font-weight: 400;
+}
+.goalContent p {
+    color: #A0A3BD;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-top: 20px
+}
+
+.features {
+    background: #F4F4F4;
+    padding: 120px 0px;
+}

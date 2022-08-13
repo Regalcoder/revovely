@@ -1,6 +1,6 @@
 
 .footer {
-    height: auto;
+    height: autopus;
     width: 100%;
     background: #14142B;
     color: white;
@@ -49,6 +49,7 @@
 
 .downloadLinks {
     float: right;
+    text-align: right;
 }
 .downloadLinks img:nth-child(1) {
     margin-right: 10px;
@@ -60,7 +61,7 @@
 }
 .copyright {
     color: #7D7D7D;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 300;
     text-align: center;
     margin-top: 30px;
