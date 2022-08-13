@@ -1,5 +1,6 @@
-// import '../styles/globals.css'
-
+ import '../styles/globals.css'
+ import 'bootstrap/dist/css/bootstrap.css';
+ import 'bootstrap/dist/css/bootstrap.min.css';
 // pages/_app.jsx
 import Default from "../layouts/Default";
 // import Layout2 from "@/layouts/Layout2";
@@ -12,6 +13,7 @@ const App = ({ Component, pageProps }) => {
   return (
     <Layout>
       <Component {...pageProps} />
+      
     </Layout>
   );
 };
