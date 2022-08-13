@@ -1,6 +1,6 @@
- import '../styles/globals.css'
- import 'bootstrap/dist/css/bootstrap.css';
- import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.css'
+
 // pages/_app.jsx
 import Default from "../layouts/Default";
 // import Layout2 from "@/layouts/Layout2";
