@@ -1,3 +1,4 @@
+/*.container {
 /* .container {
   padding: 0 2rem;
 }
@@ -126,7 +127,319 @@
   .logo img {
     filter: invert(1);
   }
+}  */
+
+
+/* landing page styling */
+
+.body{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  font-family: 'inter';
+  font-style: normal;
 }
 
- */
+.container1{
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.subcontainer{
+  width: 82%;
+  height: 520px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.textContainer{
+  width: 687px;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headerText{
+  font-weight: 900;
+  line-height: 60px;
+  font-size: 60px;
+  width: 500px;
+  
+}
+
+.paraText{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  width: 580px;
+}
+
+.button{
+  background-color: #5F2EEA;
+  border-radius: 8px;
+  width: 155px;
+  height: 48px;
+  color: white;
+  border: none;
+}
+
+.container2{
+  width: 100%;
+  height: 70vh;
+}
+
+.subcontainer2{
+  width: 90%;
+  height: 400px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.textContainer2{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.colorText{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  color: #5F2EEA;
+}
+
+.mainHeader{
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 125%;
+}
+
+.texts{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #6E7191;
+}
+
+.colorLink{
+  color: #5F2EEA;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.userContainer{
+  width: 45%;
+  height: 332px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flexContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.columns{
+  width: 256px;
+  height: 150px;
+}
+
+.columns2{
+  width: 256px;
+  height: 126px;
+}
+
+.textWidth{
+  width: 70%;
+}
+
+.topText{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+}
+
+.paraSize{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6E7191;
+}
+
+.container3{
+  width: 100%;
+  height: 90vh;
+  background-color: #F4F4F4;
+}
+
+.subcontainer3{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+
+.imageContainer{
+  width: 40%;
+  margin-top: 20px;
+}
+.rightContent{
+   width: 50%;
+}
+
+.leftHeader{
+  font-weight: 500;
+  size: 40px;
+  width: 60%;
+}
+
+.leftText{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #A0A3BD;
+  width: 60%;
+}
+
+.button{
+  width: 151px;
+  height: 52px;
+  background-color: #5F2EEA;
+  color: white;
+}
+
+.container4{
+  width: 100%;
+  height: 90vh;
+}
+
+.imageContainer2{
+  width: 40%;
+  margin-top: 20px;
+}
+
+.subcontainer4{
+  display: flex;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+
+.smallHeading{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #14142B;
+  padding-top: 50px;
+}
+
+.largeHeader{
+  color: #14142B;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.customWidth{
+  width: 70%;
+  height: 50px;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: unset;
+}
+
+.containerbox{
+  width: 100%;
+  height: 450px;
+}
+
+.containerbox2{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 70px;
+  padding-top: 10px;
+}
+
+.container5{
+  width: 100%;
+  height: 65vh;
+}
+
+.textSize{
+  width: 500px;
+  height: 100px;
+  text-align: center;
+}
+
+.imageFlex{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.logoContainer{
+  width: 100%;
+  height: 200px;
+  background-color: #F4F4F4;
+  display: flex;
+  
+}
+
+.logos{
+  margin: auto;
+}
+
+.lastContainer{
+  width: 100%;
+  height: 412px;
+  background-color: white;
+  display: flex;
+}
+
+.subContainer{
+  background-color: #F4F4F4;
+  width: 80%;
+  height: 298px;
+  display: flex;
+  margin: auto;
+  gap: 40px;
+}
+
+.columnFlex{
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 200px;
+  margin: 70px 50px 0;
+}
+
+.header{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 33px;
+  color: #14142B;
+  width: 80%;
+}
+
+.downloadLogo{
+  margin-right: 65px;
+}
+
+
+
+
 
