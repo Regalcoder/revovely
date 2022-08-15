@@ -1,0 +1,66 @@
+version: 2.1
+executors:
+  node:
+    docker:
+      - image: circleci/node:14
+
+# Invoke jobs via workflows
+# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+workflows:
+  version: 2
+  prod_build_deploy:
+    jobs:
+      - build:
+          context: orokolabs-test
+          environment: prod
+          filters:
+            branches:
+              only:
+                - master
+      - deploy:
+          requires:
+            - build
+      
+jobs:
+  experiment:
+    executor: node
+    steps:
+      - checkout
+  build:
+    parameters:
+      environment:
+        type: string
+        default: dev
+    docker:
+      - image: cimg/node:17.6.0
+    steps:
+      - checkout          
+      - setup_remote_docker:
+          version: 20.10.14
+          docker_layer_caching: true
+      - run:
+          name: Build and push Docker image
+          command: |
+            docker build -t princesegzy01/revovely-website:latest .
+            echo $DOCKERHUB_PASSWORD | docker login -u $DOCKERHUB_USER --password-stdin
+            docker push princesegzy01/revovely-website:latest
+
+  deploy:
+    docker:
+      - image: cimg/node:17.6.0
+    steps:
+      - attach_workspace:
+          at: .
+      - kubernetes/install-kubectl
+      - kubernetes/install-kubeconfig:
+          kubeconfig: KUBECONFIG_ENCODED
+      - checkout
+      - run:
+          name: Deploy BetRebound App
+          command: |
+            kubectl apply -k ./kustomize/environments/prod --namespace default
+            kubectl -n default rollout restart deployment revovely-website-deployment
+
+
+orbs:
+  kubernetes: circleci/kubernetes@0.11.0
