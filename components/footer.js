@@ -48,6 +48,13 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className={styles.socials}>
+                    <img src="/assets/facebook.png" width="6px" height="12px" />
+                    <img src="/assets/ig.png" width="29px" height="29px" />
+                    <img src="/assets/linkedin.png" width="13px" height="11px" />
+                    <img src="/assets/twitter.png" width="13px" height="11px" />
+                </div>
                 <hr className={styles.footerLine}/>
                 <h6 className={styles.copyright}>Copyright © 2022 Revovely. All rights reserved</h6>
             </div>
