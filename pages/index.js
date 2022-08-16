@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Form from 'react-bootstrap/Form';
+import FAQ from '../components/faq'
 
 
 const Home = () => {
@@ -121,46 +122,15 @@ const Home = () => {
           <div className={styles.imageContainer2}><img src='phone4.png' width='321px' className={`mt-3`} /></div>
         </div>
       </div>
-      <div className={styles.container3}>
+
+      <div className={styles.faq}>
         <h6 className={styles.smallHeading}>Frequently asked questions</h6>
         <h3 className={styles.largeHeader}>Let's answer some of your questions</h3>
-        <div className={styles.containerbox}>
-          <Form.Select className={styles.customWidth} aria-label="Default select example">
-            <option>Nulla ultrices nec nullam viverra. Massa amet pulvinar.</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-         </Form.Select>
-
-         <Form.Select className={styles.customWidth} aria-label="Default select example">
-            <option>Nulla ultrices nec nullam viverra. Massa amet pulvinar.</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-         </Form.Select>
-
-         <Form.Select className={styles.customWidth} aria-label="Default select example">
-            <option>Nulla ultrices nec nullam viverra. Massa amet pulvinar.</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-         </Form.Select>
-
-         <Form.Select className={styles.customWidth} aria-label="Default select example">
-            <option>Nulla ultrices nec nullam viverra. Massa amet pulvinar.</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-         </Form.Select>
-
-         <Form.Select className={styles.customWidth} aria-label="Default select example">
-            <option>Nulla ultrices nec nullam viverra. Massa amet pulvinar.</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-         </Form.Select>
+        <div className={styles.faqContents}>
+          <FAQ />
         </div>
       </div>
+      
       <div className={styles.container5}>
         <h6 className={styles.smallHeading}>Testimonials</h6>
         <h3 className={styles.largeHeader}>What our customers are saying</h3>
