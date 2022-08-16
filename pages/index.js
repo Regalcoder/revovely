@@ -3,10 +3,13 @@ import styles from '../styles/Home.module.css'
 import Form from 'react-bootstrap/Form';
 import FAQ from '../components/faq'
 
+import Getapp from '../components/getapp';
 
 const Home = () => {
   return (
    <>
+    
+
     <div className={styles.body}>
       <div className={styles.container1}>
         <div className={styles.subcontainer}>
@@ -131,6 +134,46 @@ const Home = () => {
         </div>
       </div>
       
+      <div className={styles.container3}>
+        <h6 className={styles.smallHeading}>Frequently asked questions</h6>
+        <h3 className={styles.largeHeader}>Let's answer some of your questions</h3>
+        <div className={styles.containerbox}>
+          <Form.Select className={styles.customWidth} aria-label="Default select example">
+            <option>Nulla ultrices nec nullam viverra. Massa amet pulvinar.</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+         </Form.Select>
+
+         <Form.Select className={styles.customWidth} aria-label="Default select example">
+            <option>Nulla ultrices nec nullam viverra. Massa amet pulvinar.</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+         </Form.Select>
+
+         <Form.Select className={styles.customWidth} aria-label="Default select example">
+            <option>Nulla ultrices nec nullam viverra. Massa amet pulvinar.</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+         </Form.Select>
+
+         <Form.Select className={styles.customWidth} aria-label="Default select example">
+            <option>Nulla ultrices nec nullam viverra. Massa amet pulvinar.</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+         </Form.Select>
+
+         <Form.Select className={styles.customWidth} aria-label="Default select example">
+            <option>Nulla ultrices nec nullam viverra. Massa amet pulvinar.</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+         </Form.Select>
+        </div>
+      </div>
       <div className={styles.container5}>
         <h6 className={styles.smallHeading}>Testimonials</h6>
         <h3 className={styles.largeHeader}>What our customers are saying</h3>
@@ -151,21 +194,8 @@ const Home = () => {
       <div className={styles.logoContainer}>
         <img src="logos.png" height='40px' className={styles.logos} />
       </div>
-      <div className={styles.lastContainer}>
-        <div className={styles.subContainer}>
-          <div className={styles.columnFlex}>
-            <h2 className={styles.header}>Get the app now, start paying with Revovely.</h2>
-            <p>It only takes a few minutes to start enjoying the app. 
-              Download Revovely on Google Play or the App Store.
-            </p>
-            <div className={`${styles.downloadLogo} ${styles.imageFlex}`}>
-              <img src="path.png" width='146.46px' />
-              <img src="shape.png" width='146.46px' />
-            </div>
-          </div>
-          <div> <img src="decoration.png" className='pt-3' width='480px'/> </div>
-        </div>
-      </div>
+      
+        <Getapp />
     </div>
   </>  
   );
