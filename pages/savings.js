@@ -1,11 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Savings.module.css";
+import Getapp from '../components/getapp';
+
 
 const Savings = () => {
   return (
     <div className={styles.savingSection}>
-      <div className="container">
+      <div className="pt-5 container">
         <div className={styles.goalSection}>
           <div className="row">
             <div className="col-lg-6">
@@ -76,6 +78,7 @@ const Savings = () => {
           </div>
         </div>
       </div>
+      <Getapp />
     </div>
   );
 };

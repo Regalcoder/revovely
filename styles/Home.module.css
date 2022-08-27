@@ -142,17 +142,14 @@
 
 .container1{
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   
 }
 
 .subcontainer{
-  width: 82%;
-  height: 520px;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: auto;
+  gap: 20px;
+  margin-left: 30px;
 }
 
 .textContainer{
@@ -161,6 +158,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .headerText{
@@ -413,7 +411,6 @@
 
 .imageFlex{
   display: flex;
-  justify-content: center;
   gap: 20px;
 }
 
@@ -429,43 +426,148 @@
   margin: auto;
 }
 
-.lastContainer{
-  width: 100%;
-  height: 412px;
-  background-color: white;
-  display: flex;
+/* normal screen size mobile phone view */ 
+@media all and (max-width: 500px) {
+  .container1{
+    height: auto;
+  }
+  
+  .subcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  
+  .headerText{
+    font-size: 33px;
+    text-align: center;
+    width: 100%;
+   
+    
+  }
+
+  .paraText{
+    font-size: 17px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .textContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .buttonContainer{
+    width: 100%;
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+  }
+  .button{
+    margin: auto;
+    
+  }
 }
 
-.subContainer{
-  background-color: #F4F4F4;
-  width: 80%;
-  height: 298px;
-  display: flex;
-  margin: auto;
-  gap: 40px;
+
+/* small mobile phone view */
+@media all and (max-width: 375px){
+  .container1{
+    height: auto;
+  }
+  
+  .subcontainer{
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+ 
+  .paraText{
+    font-size: 11px;
+  }
+
+  .headerText{
+    font-size: 30px;
+  }
+
+  .button{
+    width: 145px;
+    height: 42px;
+    font-size: 14px;
+    
+  }
 }
 
-.columnFlex{
-  display: flex;
-  flex-direction: column;
-  width: 380px;
-  height: 200px;
-  margin: 70px 50px 0;
+
+/*extra small mobile screen view */
+@media all and (max-width: 320px){
+  .container1{
+    height: auto;
+  }
+  
+  .subcontainer{
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  
+  .paraText{
+    font-size: 11px;
+  }
+
+  .headerText{
+    font-size: 25px;
+  }
+
+  .textContainer{
+    gap: 6px;
+  }
+
+  .button{
+    width: 145px;
+    height: 42px;
+    font-size: 14px;
+    
+  }
 }
 
-.header{
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 33px;
-  color: #14142B;
-  width: 80%;
+
+/* tablet screen */
+@media all and (max-width: 780px){
+  .container1{
+    height: auto;
+    border: 1px solid black;
+  }
+  
+  
+  .subcontainer{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .headerText{
+    font-size: 32px;
+    width: 100%;
+    height: 78px;
+    line-height: 38.73px;
+    
+  }
+
+  .paraText{
+    font-size: 19px;
+    line-height: 150%;
+    width: 100%;
+    
+  }
+
+  .textContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  
 }
-
-.downloadLogo{
-  margin-right: 65px;
-}
-
-
-
-
 

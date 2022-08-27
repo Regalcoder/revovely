@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import styles from '../styles/Payments.module.css'
+import Getapp from '../components/getapp';
 
 
 
@@ -9,7 +9,7 @@ import styles from '../styles/Payments.module.css'
 const Savings = () => {
     return ( 
             <div className={styles.paymentSection}>
-                <div className="container">
+                <div className="pt-5 container">
                     <div className={styles.sendSection}>
                         <div className="row">
                             <div className="col-lg-6">
@@ -50,6 +50,7 @@ const Savings = () => {
                         </div>
                     </div>
                 </div>
+                <Getapp />
             </div>
 
             
