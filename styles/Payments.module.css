@@ -1,13 +1,12 @@
 .paymentSection {
     /* border: 1px solid black; */
     height: auto;
-    padding: 100px 0px 0px;
-    /* background: #F4F4F4; */
+  /* background: #F4F4F4; */
 }
 .sendSection {
     height: auto;
     /* border: 1px solid black; */
-    margin: 0px 50px 90px;
+    margin: 40px 50px 90px;
 }
 .sendContent {
     width: 430px;
@@ -106,8 +105,8 @@
     /* width: 100%; */
     /* text-align: center; */
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    gap: 40px;
 }
 .card {
     background: #FFFFFF;

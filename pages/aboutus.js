@@ -1,12 +1,12 @@
 import Link from 'next/link'
-import Image from 'next/image'
+import Getapp from '../components/getapp';
 import styles from '../styles/Aboutus.module.css'
 
 
 const Aboutus = () => {
     return ( 
         <div className={styles.aboutusSection}>
-            <div className="container">
+            <div className="pt-5 container">
                 <div className={styles.storySection}>
                     <h5>our story.</h5><br />
                     <p>Iaculis in ridiculus urna mauris et fermentum urna. Pulvinar ut purus dictumst sapien vitae tempus, 
@@ -73,6 +73,7 @@ const Aboutus = () => {
                     
                 </div>
             </div>
+            <Getapp/>
         </div>
     );
 }
