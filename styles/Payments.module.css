@@ -36,6 +36,18 @@
     font-weight: 300;
     /* margin-top: 25px; */
 }
+
+@media only screen and (max-width: 1104.98px) 
+{
+    .card {
+
+        max-width: 300px;
+        padding: 20px 20px;
+    }
+    .features .featureRow {
+        margin: 0px 10px;
+    }
+}
 @media only screen and (max-width: 768.98px) 
 {
     .sendApp img {
@@ -86,11 +98,15 @@
 @media only screen and (max-width: 375.98px) 
 {
     .features .featureRow {
-        margin: 0px ;
+        margin: 0px 20px ;
     }
-   
-   
-    
+}
+@media only screen and (max-width: 320.98px) 
+{
+    .features .featureRow {
+        margin: 0px 0px ;
+    }
+
 }
 
 .features {
@@ -105,8 +121,8 @@
     /* width: 100%; */
     /* text-align: center; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 40px;
 }
 .card {
     background: #FFFFFF;
