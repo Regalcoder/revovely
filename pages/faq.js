@@ -23,12 +23,12 @@ const Faq = () => {
                         <div className={styles.card}>
                         <div className={styles.iconborder}>
                             <img
-                            src="/assets/automatic.png"
-                            width="18px"
-                            height="20px"
+                            src="/assets/call.png"
+                            width="50px"
+                            height="50px"
                             ></img>
                         </div>
-                        <h4>Save automatically</h4>
+                        <h4>Call Support</h4>
                         <p>
                             Morbi tristique lorem condimentum et proin nulla etiam tellus
                             morbi. Rutrum congue semper id nisl neque, mauris sed. Eget
@@ -37,9 +37,9 @@ const Faq = () => {
                         </div>
                         <div className={styles.card}>
                         <div className={styles.iconborder}>
-                            <img src="/assets/save.png" width="18px" height="18px"></img>
+                            <img src="/assets/chat.png" width="50px" height="50px"></img>
                         </div>
-                        <h4>Save on the go</h4>
+                        <h4>Chat With Us</h4>
                         <p>
                             Et suscipit non lacus, quis. Morbi egestas justo faucibus eu.
                             Congue diam sodales ultrices lectus rhoncus. Sed posuere
@@ -49,12 +49,12 @@ const Faq = () => {
                         <div className={styles.card}>
                         <div className={styles.iconborder}>
                             <img
-                            src="/assets/build.png"
-                            width="20.44px"
-                            height="14.16px"
+                            src="/assets/address.png"
+                            width="50px"
+                            height="50px"
                             ></img>
                         </div>
-                        <h4>Build discipline</h4>
+                        <h4>Address</h4>
                         <p>
                             Elementum nunc ac euismod maecenas aliquam feugiat ornare fusce.
                             At in faucibus dignissim fusce eu eu, arcu. Dictum nullam at.

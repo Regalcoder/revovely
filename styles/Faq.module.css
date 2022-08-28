@@ -3,11 +3,11 @@
     height: auto;
     background-color: #F4F4F4;
     text-align: center;
-    padding: 50px 0px 70px;
+    padding: 90px 0px 70px;
   }
 
 .faqContent {
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 .faqContent details {
@@ -26,8 +26,8 @@
 .faqContents details {
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 2px;
-    height: 78px;
+    border-radius: 7px;
+    height: auto;
     width: 75%;
     margin-left: 30px;
     margin: auto;
@@ -158,4 +158,50 @@
     margin-top: 12px;
     font-weight: 300;
     line-height: 27px;
+}
+
+@media only screen and (max-width: 768.98px) 
+{
+  .faq .faqContents {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .faqContents details {
+    width: 90%;
+    height: auto;
+    padding: 15px 25px;
+  }
+  .help .featureRow {
+    margin: 0px;
+    /* border: 1px solid black; */
+}
+}
+
+@media only screen and (max-width: 425.98px) 
+{
+  .faqContents summary {
+    font-size: 15px;
+    
+  }
+  .faqContents details {
+    padding: 15px;
+  }
+  .helpContents {
+    width: 95%;
+  }
+  .help .featureRow {
+    margin: 0px 30px;
+  }
+}
+
+
+    
+@media only screen and (max-width: 375.98px) 
+{
+    .help .featureRow {
+        margin: 0px 0px ;
+    }
+
+    
 }
