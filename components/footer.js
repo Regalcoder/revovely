@@ -10,19 +10,19 @@ const Footer = () => {
         <div className={styles.footer}>
             <div className="container">
                 <div className="row">
-                    <div className="col-xl-8 col-lg-9 col-md-10 col-sm-12 linkContents" >
+                    <div className="col-xl-9 col-lg-9 col-md-10 col-sm-12 linkContents" >
                         <div className="row">
-                            <div className="col-lg-3 col-md-12 logo">
+                            <div className="col-lg-3 col-md-12 col-sm-12 logo">
                                 <img src="/assets/Logo.png" width="126px" height="30px" />
                             </div>
-                            <div className="col-lg-3 col-md-4 footerlinks">
+                            <div className="col-lg-3 col-md-4 col-sm-6 footerlinks">
                                 <h6 className={styles.linkTitle}>Company</h6>
                                 <ul className={styles.navList}>
                                     <li><Link className={styles.link} href="/"><a href="/" > about us </a></Link></li>
                                     <li><Link className={styles.link} href="/"><a href="/" > contact us </a></Link></li>
                                 </ul>
                             </div>
-                            <div className="col-lg-3 col-md-4 footerlinks">
+                            <div className="col-lg-3 col-md-4 col-sm-6 footerlinks">
                             <h6 className={styles.linkTitle}>App Feautures</h6>
                                 <ul className={styles.navList}>
                                     <li><Link className={styles.link} href="/"><a href="/" > payments </a></Link></li>
@@ -32,7 +32,7 @@ const Footer = () => {
 
                                 </ul>
                             </div>
-                            <div className="col-lg-3 col-md-4 footerlinks">
+                            <div className="col-lg-3 col-md-4 col-sm-12 footerlinks">
                             <h6 className={styles.linkTitle}>Help</h6>
                                 <ul className={styles.navList}>
                                     <li><Link className={styles.link} href="/"><a href="/" > FAQs </a></Link></li>
@@ -41,7 +41,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-4 col-lg-3 col-md-2 download">
+                    <div className="col-xl-3 col-lg-3 col-md-2 download">
                         <div className={styles.dowloadLinks}>
                             <img src="/assets/apple.png" width="100px" height="32px" />
                             <img src="/assets/android.png" width="100px" height="32px" />
@@ -50,8 +50,8 @@ const Footer = () => {
                 </div>
 
                 <div className={styles.socials}>
-                    <img src="/assets/facebook.png" width="6px" height="12px" />
-                    <img src="/assets/ig.png" width="29px" height="29px" />
+                    <img src="/assets/facebook.png" width="7px" height="12px" />
+                    <img src="/assets/ig.png" width="13px" height="13px" />
                     <img src="/assets/linkedin.png" width="13px" height="11px" />
                     <img src="/assets/twitter.png" width="13px" height="11px" />
                 </div>

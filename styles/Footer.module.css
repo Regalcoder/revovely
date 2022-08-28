@@ -1,6 +1,6 @@
 
 .footer {
-    height: autopus;
+    height: auto;
     width: 100%;
     background: #14142B;
     color: white;
@@ -23,6 +23,9 @@
   }
   .downloadLinks {
     margin-top: 60px;
+  }
+  .footerLine {
+    margin-top: 100px;
   }
 }
 .linkTitle {
@@ -51,6 +54,10 @@
     float: right;
     text-align: right;
 }
+.downloadLinks img {
+  float: right;
+    text-align: right;
+}
 .downloadLinks img:nth-child(1) {
     margin-right: 10px;
 }
@@ -65,4 +72,20 @@
     font-weight: 300;
     text-align: center;
     margin-top: 30px;
+}
+.socials {
+  /* border: 1px solid white; */
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  float: right;
+  margin-right: 60px;
+}
+@media only screen and (max-width: 425.98px) 
+{
+  .socials {
+    float: left;
+    margin-top: 30px;
+  }
 }

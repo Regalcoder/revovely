@@ -34,8 +34,11 @@ Footer {
 
 
 .linkContents, .download {
-  height: 200px;
+  height: auto;
   width: 400px;
+}
+.download {
+  text-align: right;
 }
 .download img:nth-child(1) {
   margin-right: 10px;
@@ -45,15 +48,29 @@ Footer {
 {
   .download img:nth-child(1) {
     margin-bottom: 10px;
+    margin-right: -2px;
+    /* border: 1px solid white; */
     
   }
+ 
 }
-/* @media only screen and (max-width: 767.98px) 
+@media only screen and (max-width: 425.98px) 
 {
-  .linkContents .footerlinks{
-    margin-top: 40px;
+  .download {
+    text-align: left;
+    
   }
-} */
+  .download img:nth-child(1) {
+    margin-bottom: unset;
+    margin-right: unset;
+    margin-top: 30px;
+  }
+  .download img:nth-child(2) {
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  
+}
 
 
 

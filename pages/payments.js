@@ -12,14 +12,14 @@ const Savings = () => {
                 <div className="container">
                     <div className={styles.sendSection}>
                         <div className="row">
-                            <div className="col-lg-6">
+                            <div className="col-lg-6 col-md-6">
                                 <div className={styles.sendContent}>
                                     <h4>Send money to friends & family seamlessly</h4>
                                     <p>Blandit eget tellus nam leo in lacinia sed. Velit magna sed ornare tellus. Tempor amet egestas a nunc sapien.</p><br></br>
                                     <Link href=""><a href="">Get started</a></Link>
                                 </div>
                             </div>
-                            <div className="col-lg-6">
+                            <div className="col-lg-6 col-md-6">
                                 <div className={styles.sendApp}>
                                     <img src="/assets/sendapp.png" width="541px" height="589px" />
                                 </div>

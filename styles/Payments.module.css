@@ -1,13 +1,12 @@
 .paymentSection {
     /* border: 1px solid black; */
     height: auto;
-    padding: 100px 0px;
+    padding: 100px 0px 0px;
     /* background: #F4F4F4; */
 }
 .sendSection {
     height: auto;
     /* border: 1px solid black; */
-    background: white;
     margin: 0px 50px 90px;
 }
 .sendContent {
@@ -38,13 +37,61 @@
     font-weight: 300;
     /* margin-top: 25px; */
 }
-@media only screen and (max-width: 767.98px) 
+@media only screen and (max-width: 768.98px) 
 {
-  .sendApp img {
-    width: 390px;
-    height: 410px;
+    .sendApp img {
+    width: 360px;
+    height: 400px;
     
-  }
+    }
+    .sendSection {
+    margin: 0px 20px 90px;
+    }
+    .sendContent {
+        width: auto;
+        margin-top: 50px;
+    }
+    .sendContent p {
+        font-size: 20px;
+        line-height: 28px;
+       
+    }
+    .features .featureRow {
+        margin: 0px;
+        /* border: 1px solid black; */
+    }
+    .card {
+        /* width: 300px; */
+    }
+    .features {
+        margin: 90px 0px;
+    }
+}
+@media only screen and (max-width: 425.98px) 
+{
+    .features .featureRow {
+        margin: 0px 50px;
+    }
+    .sendApp img {
+        max-width: 100%;
+        max-height: 330px;
+    }
+    .paymentSection .features {
+        padding: 90px 0px;
+    }
+    
+    .features {
+        margin: 70px 0px 0px;
+    }
+}
+@media only screen and (max-width: 375.98px) 
+{
+    .features .featureRow {
+        margin: 0px ;
+    }
+   
+   
+    
 }
 
 .features {

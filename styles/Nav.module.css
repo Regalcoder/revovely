@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     font-style: normal;
+    display: none;
   }
   
   .logo{

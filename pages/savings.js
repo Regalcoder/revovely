@@ -8,7 +8,7 @@ const Savings = () => {
       <div className="container">
         <div className={styles.goalSection}>
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6">
               <div className={styles.goalContent}>
                 <h4>Set goals and track your spendings</h4>
                 <p>
@@ -21,7 +21,7 @@ const Savings = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6">
               <div className={styles.mobApp}>
                 <img src="/assets/mobileapp.png" width="541px" height="589px" />
               </div>
