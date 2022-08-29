@@ -1,5 +1,5 @@
 .aboutusSection {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: auto;
     /* background: #F4F4F4; */
 }
@@ -7,7 +7,7 @@
     height: auto;
     /* border: 1px solid black; */
     background: white;
-    margin: 0px 50px 90px;
+    margin: 40px 50px 90px;
     text-align: center;
     position: relative;
 }
@@ -109,4 +109,21 @@
   /* .teamCard {
     width: 35%;
   } */
+}
+@media only screen and (max-width: 425.98px) 
+{
+    .teamSection {
+        margin: 20px 10px;
+    }
+    .teamRow .teamCard img {
+        max-width: 90%;
+        height: auto;
+        
+    }
+    .teamCard h5, .teamCard h6 {
+        width: 150px;
+    }
+    .teamCard {
+        max-width: 50%;
+    }
 }
