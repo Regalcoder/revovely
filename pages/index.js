@@ -29,17 +29,19 @@ const Home = () => {
       </Container>
       <div className={styles.container2}>
         <div className={styles.subcontainer2}>
+          
           <div className={styles.textContainer2}>
             <h6 className={styles.colorText}>Trusted Worldwide</h6>
             <h1 className={styles.mainHeader}>Trusted by over 600 million users</h1>
             <p className={styles.texts}>A ac venenatis quis malesuada. Duis quis bibendum laoreet euismod elementum commodo. 
               Massa aliquet habitasse cursus diam ipsum.
             </p>
-            <hr/>
-            <Link href=''><a className={styles.colorLink}>Explore our Terms of use <img className='img-fluid' src='line.png'/></a></Link>
+            <hr className={styles.line}/>
+            <Link href=''><a className={`mt-3 ${styles.colorLink}`}>Explore our Terms of use <img className='img-fluid' src='line.png'/></a></Link>
             <Link href=''><a className={`mt-3 ${styles.colorLink}`}>See the Privacy policy <img className='img-fluid' src='line.png'/></a></Link>
           </div>
-          <div className={styles.userContainer}>
+          <div  className={styles.userContainer}>
+        
             <div className={styles.flexContainer}>
               <div className={styles.columns}>
                 <img  src="server.png" className={`img-fluid mb-2`} width='38.4px' height='33.6px'/>
@@ -48,15 +50,15 @@ const Home = () => {
                   maintenance downtime
                 </p>
               </div>
-              <div className={styles.columns}>
-                <img src='users.png' className={`img-fluid mb-2`} width='43.2px' height='33.6px'/>
+              <div className={` ${styles.columns}`}>
+                <img src='users.png' className={`img-fluid mb-2 ${styles.tabMargin}`} width='43.2px' height='33.6px'/>
                 <h3 className={styles.topText}>600M+ Users</h3>
                 <p className={styles.paraSize}>trusted by over 600 million users
                   around the world 
                 </p>
               </div>
             </div>
-            <div className={styles.flexContainer}>
+            <div className={`${styles.tabmargin} ${styles.flexContainer}`}>
               <div className={styles.columns2}>
                 <img src="vector5.png" className={`img-fluid mb-2`} width='38.4px' height='40.8px'/>
                 <h3 className={styles.topText}>Millions</h3>
@@ -69,19 +71,20 @@ const Home = () => {
               </div>
             </div>
           </div>
+          
         </div>
       </div>
       <div className={styles.container3}>
         <div className={`me-3 ${styles.subcontainer3}`}>
-           <div className={styles.imageContainer}><img src='phone1.png' width='401px' className={`img-fluid mt-5`}/></div>
-        <div className={styles.rightContent}>
-          <h2 className={styles.leftHeader}>Send money to friends & family seamlessly</h2>
-          <p className={styles.leftText}>Blandit eget tellus nam leo in lacinia
-            sed. Velit magna sed ornare tellus. Tempor
-            amet egestas a nunc sapien.
-          </p>
-          <button className={styles.button}>Learn more <img src='arrow.png' width='16px' className={`img-fluid ms-1`} /></button>
-        </div>
+          <div className={styles.imageContainer}><img src='phone1.png' width='401px' className={`img-fluid ${styles.imageMargin}`}/></div>
+          <div className={styles.rightContent}>
+            <h2 className={styles.leftHeader}>Send money to friends & family seamlessly</h2>
+            <p className={styles.leftText}>Blandit eget tellus nam leo in lacinia
+              sed. Velit magna sed ornare tellus. Tempor
+              amet egestas a nunc sapien.
+            </p>
+            <button className={styles.button}>Learn more <img src='arrow.png' width='16px' className={`img-fluid ms-1`} /></button>
+          </div>
         </div>
         
       </div>
@@ -99,12 +102,12 @@ const Home = () => {
         </div>
       </div>
 
-      <div className={styles.container3}>
-        <div className={`me-1 ${styles.subcontainer3}`}>
-           <div className={styles.imageContainer}><img src='phone3.png' width='401px' className={`img-fluid mt-5`}/></div>
-        <div className={styles.rightContent}>
-          <h2 className={styles.leftHeader}>Set goals and track your spendings</h2>
-          <p className={styles.leftText}>Blandit eget tellus nam leo in lacinia
+      <div className={styles.containerNew}>
+        <div className={`me-1 ${styles.subcontainer5}`}>
+           <div className={styles.imageContainer5}><img src='phone3.png' width='401px' className={`img-fluid mt-5 ${styles.phoneImage}`}/></div>
+        <div className={`${styles.rightContent5}`}>
+          <h2 className={styles.leftHeader5}>Set goals and track your spendings</h2>
+          <p className={styles.leftText5}>Blandit eget tellus nam leo in lacinia
             sed. Velit magna sed ornare tellus. Tempor
             amet egestas a nunc sapien.
           </p>

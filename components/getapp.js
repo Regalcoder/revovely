@@ -17,7 +17,7 @@ const getapp = () => {
                 <p className={styles.paragraph}>It only takes a few minutes to start enjoying the app. 
                   Download Revovely on Google Play or the App Store.
                 </p>
-                <div className={styles.imageFlex}>
+                <div className={styles.imageFlexNew}>
                   <img className={`img-fluid ${styles.mobile}`} src="path.png" width='146.46px' />
                   <img className={`img-fluid ${styles.mobile}`} src="shape.png" width='146.46px' />
                 </div>
