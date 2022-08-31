@@ -33,7 +33,7 @@ const contactus = () => {
                         </div>
                       </div>
 
-                      <div className='mt-3'>
+                      <div className={`mt-3 ${styles.responsive}`}>
                       <label className={styles.labelText3} htmlFor="">Message</label>
                         <textarea className={styles.Textarea} name="" id="" cols="30" rows="10" placeholder='Type Your Message Here...' />
                       </div>
@@ -43,20 +43,21 @@ const contactus = () => {
             </div>
             <div className={styles.container2}>
                 <div className={styles.miniContainer}>
-                    <img src="customercare.png" width='50px'/>
+                    <img src="customercare.png" className='img-fluid' width='50px'/>
                     <h4 className={styles.smallheader}>Call Support</h4>
                     <p className={styles.paragraph}>Platea volutpat in vitae volutpat vitae in commodo vulputate nulla. </p>
                 </div>
                 <div className={styles.miniContainer}>
-                <img src="message.png" width='50px'/>
+                <img src="message.png" className='img-fluid' width='50px'/>
                     <h4 className={styles.smallheader}>Chat With Us</h4>
                     <p className={styles.paragraph}>Platea volutpat in vitae volutpat vitae in commodo vulputate nulla. </p>
                 </div>
                 <div className={styles.miniContainer}>
-                <img src="location.png" width='50px'/>
+                <img src="location.png" className='img-fluid' width='50px'/>
                     <h4 className={styles.smallheader}>Address</h4>
                     <p className={styles.paragraph}>4517 Washington Ave. Manchester
-Kentucky 39495 </p>
+                        Kentucky 39495 
+                    </p>
                 </div>
             </div>
          </div>

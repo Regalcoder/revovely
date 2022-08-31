@@ -55,3 +55,65 @@
     font-size: 16px;
     line-height: 19px;
 }
+
+/*normal phone screen size  */
+@media all and (max-width: 500px) {
+    .searchContainer{
+        height: auto;
+    }
+
+    .subContainer{
+        height: auto;
+        margin: 50px 0;
+    }
+
+    .errorHeader{
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 80px;
+        color: #14142B;
+    }
+
+    .seacrhBox{
+        width: 90%;
+        height: 57px;
+        padding-left: 20px;
+        margin: 10px 0 30px;
+    }
+
+    .errorText{
+        text-align: center;
+        width: 75%;
+    }
+}
+
+/*normal phone screen size  */
+@media all and (max-width: 375px){
+    .errorHeader{
+        font-size: 24px;
+        
+    }
+
+    .searchText{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 60px;
+        color: #14142B;
+    }
+
+    .errorText{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+        color: #14142B;
+        width: 80%;
+    }
+
+    .seacrhBox{
+        width: 90%;
+        height: 43px;
+        padding-left: 20px;
+        margin: 10px 0 30px;
+    }
+
+}

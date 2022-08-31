@@ -18,8 +18,8 @@ const Footer = () => {
                             <div className="col-lg-3 col-md-4 col-sm-6 footerlinks">
                                 <h6 className={styles.linkTitle}>Company</h6>
                                 <ul className={styles.navList}>
-                                    <li><Link className={styles.link} href="/"><a href="/" > about us </a></Link></li>
-                                    <li><Link className={styles.link} href="/"><a href="/" > contact us </a></Link></li>
+                                    <li><Link className={styles.link} href="/aboutus"><a href="/" > about us </a></Link></li>
+                                    <li><Link className={styles.link} href="/contactus"><a href="/" > contact us </a></Link></li>
                                 </ul>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-6 footerlinks">

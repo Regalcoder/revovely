@@ -6,7 +6,7 @@ const searcherror = () => {
          <div className={styles.searchContainer}>
             <div className={styles.subContainer}>
                 <h3 className={styles.searchText}>Search Result For 'Money'</h3>
-                <img src="searchError.png" width='95px' />
+                <img className='img-fluid' src="searchError.png" width='95px' />
                 <h2 className={styles.errorHeader}>Oops! Search Not Found</h2>
                 <p className={styles.errorText}>Nothing matched your search criteria.
                     Please try again with different keywords.
