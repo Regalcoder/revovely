@@ -45,7 +45,7 @@
     background: #F4F4F4;
     text-align: center;
     position: relative;
-    margin-top: 100px;
+    
     padding-bottom: 50px;
 }
 .people img {
@@ -115,7 +115,8 @@
     .teamSection {
         margin: 20px 10px;
     }
-    .teamRow .teamCard img {
+
+    .teamRow .teamCard .img {
         max-width: 90%;
         height: auto;
         

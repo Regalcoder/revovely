@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import Image from 'next/image';
 
 const nav = () => {
     return ( 
@@ -17,7 +18,8 @@ const nav = () => {
         <Navbar key={expand}  expand={expand} className= {`mb-3 ${styles.navContainer}`} >
           <Container fluid>
             <Navbar.Brand className='ms-3' href="#">
-              <img className='navbar-brand' src="/logo.png"  height='35px'/>
+             {/*<Image className='navbar-brand' src="/logo.png" width='35px' height='35px'alt=''/>*/} 
+              <i><strong>LOGO</strong></i>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
@@ -27,7 +29,7 @@ const nav = () => {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                <img className='navbar-brand' src="/logo.png"  height='35px'/>
+                <Image className='navbar-brand' src="/logo.png" width='35px' height='35px' alt=''/>
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>

@@ -22,11 +22,11 @@ const Faq = () => {
                     <div className={styles.featureRow}>
                         <div className={styles.card}>
                         <div className={styles.iconborder}>
-                            <img
+                            <Image
                             src="/assets/call.png"
                             width="50px"
-                            height="50px"
-                            ></img>
+                            height="50px" alt=""
+                            />
                         </div>
                         <h4>Call Support</h4>
                         <p>
@@ -37,7 +37,7 @@ const Faq = () => {
                         </div>
                         <div className={styles.card}>
                         <div className={styles.iconborder}>
-                            <img src="/assets/chat.png" width="50px" height="50px"></img>
+                            <Image src="/assets/chat.png" width="50px" height="50px" alt=""/>
                         </div>
                         <h4>Chat With Us</h4>
                         <p>
@@ -48,11 +48,11 @@ const Faq = () => {
                         </div>
                         <div className={styles.card}>
                         <div className={styles.iconborder}>
-                            <img
+                            <Image
                             src="/assets/address.png"
                             width="50px"
-                            height="50px"
-                            ></img>
+                            height="50px" alt=''
+                            />
                         </div>
                         <h4>Address</h4>
                         <p>

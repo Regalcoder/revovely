@@ -111,6 +111,15 @@
         margin: 0px 0px ;
     }
 
+    .goalContent {
+        
+        margin-top: 0px;
+        margin-bottom: 80px;
+        /* border: 1px solid black;; */
+    }
+
+    
+
 }
 
 .features {

@@ -2,6 +2,7 @@ import styles from '../styles/Getapp.module.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Image from 'next/image';
 
 const getapp = () => {
     return ( 
@@ -18,12 +19,12 @@ const getapp = () => {
                   Download Revovely on Google Play or the App Store.
                 </p>
                 <div className={styles.imageFlexNew}>
-                  <img className={`img-fluid ${styles.mobile}`} src="path.png" width='146.46px' />
-                  <img className={`img-fluid ${styles.mobile}`} src="shape.png" width='146.46px' />
+                  <Image className={`img-fluid ${styles.mobile}`} src="/path.png" width='146.46px' height='42px' alt=''/>
+                  <Image className={`img-fluid ${styles.mobile}`} src="/shape.png" width='146.46px' height='42px' alt=''/>
                 </div>
               </Col>
               <Col className={styles.phoneImage}>
-                <img src="decoration.png" className={`  img-fluid ${styles.phone}`} />
+                <Image src="/decoration.png" className={`  img-fluid ${styles.phone}`} width='620px' height='400px' alt=''/>
               </Col> 
             </Row>
         </Container>

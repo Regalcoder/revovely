@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import styles from '../styles/Payments.module.css'
 import Getapp from '../components/getapp';
+import Image from 'next/image';
 
 
 
@@ -21,7 +22,7 @@ const Savings = () => {
                             </div>
                             <div className="col-lg-6 col-md-6">
                                 <div className={styles.sendApp}>
-                                    <img src="/assets/sendapp.png" width="541px" height="589px" />
+                                    <Image src="/assets/sendapp.png" width="541px" height="589px" alt=''/>
                                 </div>
                             </div>
                         </div>
@@ -33,17 +34,17 @@ const Savings = () => {
                     <div className="container">
                         <div className={styles.featureRow}>
                             <div className={styles.card}>
-                                <div className={styles.iconborder}><img src="/assets/send.png" width="18px" height="20px"></img></div>
+                                <div className={styles.iconborder}><Image src="/assets/send.png" width="18px" height="20px" alt=''/></div>
                                 <h4>Send money without an account number.</h4>
                                 <p>There’s more than one way to send money for free to anyone who has a smartphone.</p>
                             </div>
                             <div className={styles.card}>
-                                <div className={styles.iconborder}><img src="/assets/securely.png" width="18px" height="18px"></img></div>
+                                <div className={styles.iconborder}><Image src="/assets/securely.png" width="18px" height="18px" alt=''/></div>
                                 <h4>Pay securely</h4>
                                 <p>Et suscipit non lacus, quis. Morbi egestas justo faucibus eu. Congue diam sodales ultrices lectus rhoncus. Sed posuere tristique. </p> 
                             </div>
                             <div className={styles.card}>
-                                <div className={styles.iconborder}><img src="/assets/card.png" width="20.44px" height="14.16px"></img></div>
+                                <div className={styles.iconborder}><Image src="/assets/card.png" width="20.44px" height="14.16px"alt=''/></div>
                                 <h4>Access your virtual cards</h4>
                                 <p>Pay for goods & services online at any time without stress.</p>
                             </div>

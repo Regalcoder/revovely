@@ -130,7 +130,7 @@
 }
 
 .textWidth{
-  width: 70%;
+  width: 80%;
 }
 
 .topText{
@@ -167,15 +167,16 @@
 
 .container3{
   background-color: #F4F4F4;
-  padding-bottom: 50px;
+  padding: 30px 0;
 }
 
 .subcontainer3{
+  
   display: flex;
   justify-content: space-between;
   width: 70%;
   align-items: center;
-  margin: auto 260px;
+  margin: auto 190px;
 }
 
 .imageContainer{
@@ -221,6 +222,7 @@
 .imageContainer2{
   width: 40%;
   margin-top: 20px;
+  
 }
 
 .subcontainer4{
@@ -333,7 +335,8 @@
   height: 200px;
   background-color: #F4F4F4;
   display: flex;
-  
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logos{

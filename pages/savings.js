@@ -7,7 +7,7 @@ import Getapp from '../components/getapp';
 const Savings = () => {
   return (
     <div className={styles.savingSection}>
-      <div className="pt-5 container">
+      <div className=" container">
         <div className={styles.goalSection}>
           <div className="row">
             <div className="col-lg-6 col-md-6">
@@ -18,14 +18,14 @@ const Savings = () => {
                   ornare tellus. Tempor amet egestas a nunc sapien.
                 </p>
                 <br></br>
-                <Link href="">
-                  <a href="">Get started</a>
+                <Link href="" >
+                  <a>Get started</a>
                 </Link>
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
               <div className={styles.mobApp}>
-                <img src="/assets/mobileapp.png" width="541px" height="589px" />
+                <Image src="/assets/mobileapp.png" width="541px" height="589px" alt=""/>
               </div>
             </div>
           </div>
@@ -37,11 +37,11 @@ const Savings = () => {
           <div className={styles.featureRow}>
             <div className={styles.card}>
               <div className={styles.iconborder}>
-                <img
+                <Image
                   src="/assets/automatic.png"
                   width="18px"
-                  height="20px"
-                ></img>
+                  height="20px" alt=""
+                />
               </div>
               <h4>Save automatically</h4>
               <p>
@@ -52,7 +52,7 @@ const Savings = () => {
             </div>
             <div className={styles.card}>
               <div className={styles.iconborder}>
-                <img src="/assets/save.png" width="18px" height="18px"></img>
+                <Image src="/assets/save.png" width="18px" height="18px" alt=""/>
               </div>
               <h4>Save on the go</h4>
               <p>
@@ -63,11 +63,11 @@ const Savings = () => {
             </div>
             <div className={styles.card}>
               <div className={styles.iconborder}>
-                <img
+                <Image
                   src="/assets/build.png"
                   width="20.44px"
-                  height="14.16px"
-                ></img>
+                  height="14.16px" alt=""
+                />
               </div>
               <h4>Build discipline</h4>
               <p>
