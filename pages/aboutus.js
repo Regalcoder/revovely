@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Image from 'next/image';
 import Getapp from '../components/getapp';
 import styles from '../styles/Aboutus.module.css'

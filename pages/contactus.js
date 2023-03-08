@@ -1,7 +1,7 @@
 import styles from '../styles/contactus.module.css'
 import Image from 'next/image';
 
-const contactus = () => {
+const Contactus = () => {
     return ( 
         <>
          <div className={styles.mainBody}>
@@ -67,5 +67,5 @@ const contactus = () => {
 }
  
 
-contactus.layout = 'Default'
-export default contactus;
+Contactus.layout = 'Default'
+export default Contactus;

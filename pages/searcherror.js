@@ -1,7 +1,7 @@
 import styles from '../styles/Searcherror.module.css'
 import Link from 'next/link'
 import Image from 'next/image';
-const searcherror = () => {
+const Searcherror = () => {
     return ( 
         <>
          <div className={styles.searchContainer}>
@@ -21,5 +21,5 @@ const searcherror = () => {
      );
 }
  
-searcherror.layout = 'Default'
-export default searcherror;
+Searcherror.layout = 'Default'
+export default Searcherror;

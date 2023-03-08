@@ -9,12 +9,12 @@ const layouts = {
   // L2: Layout2,
 };
 const App = ({ Component, pageProps }) => {
-  const Layout = layouts[Component.layout] || ((children) => <>{children}</>);
+ 
   return (
-    <Layout>
+    <Default>
       <Component {...pageProps} />
       
-    </Layout>
+    </Default>
   );
 };
 export default App;

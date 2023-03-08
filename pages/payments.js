@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 
 
-const Savings = () => {
+const Payments = () => {
     return ( 
             <div className={styles.paymentSection}>
                 <div className="pt-5 container">
@@ -57,5 +57,5 @@ const Savings = () => {
             
     );
 }
-Savings.layout = "Default"
-export default Savings;
+Payments.layout = "Default"
+export default Payments;
