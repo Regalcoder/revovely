@@ -130,13 +130,13 @@ const Home = () => {
         </div>
       </div>
 
-      <div className={styles.faq}>
+    {/*  <div className={styles.faq}>
         <h6 className={styles.smallHeading}>Frequently asked questions</h6>
         <h3 className={styles.largeHeader}>Let&#39;s answer some of your questions</h3>
         <div className={styles.faqContents}>
          {/*<FAQ />*/} 
         </div>
-      </div>
+      </div> */}
       
       
       <div className={styles.container5}>
