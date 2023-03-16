@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className="col-xl-9 col-lg-9 col-md-10 col-sm-12 linkContents" >
                         <div className="row">
                             <div className="col-lg-3 col-md-12 col-sm-12 logo">
-                                <Image src="/assets/Logo.png" width="126px" height="30px" alt=''/>
+                                <p><b><i>LOGO</i></b></p>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-6 footerlinks">
                                 <h6 className={styles.linkTitle}>Company</h6>
